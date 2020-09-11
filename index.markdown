@@ -4,3 +4,8 @@
 
 layout: home
 ---
+<div class="home-background">
+
+<img class="home-image" src="./images/DeveloperGirl.png" alt="hh">
+
+</div>
