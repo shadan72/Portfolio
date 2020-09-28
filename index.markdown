@@ -4,9 +4,9 @@
 
 layout: home
 ---
-
-<div class="home-background">
-<div class="home-page">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<div class="home-background container-home">
+<div class="home-page section-home">
 <div class="top-page">
 <h4>Hello !</h4>
 <h2>I am Shadan </h2>
@@ -28,7 +28,7 @@ layout: home
 </div>
 <div class="about-me-info">
 
-<h4 id="about-me" class="about">About Me </h4>
+<h4 id="about-me" class="about ">About Me </h4>
 <div class="about">
 <img class="about-image"  src="./images/Calm.gif" alt="myLogo">
 
@@ -38,22 +38,56 @@ layout: home
 <p >
 I have taught a wide range of computer subjects such as C++, ASP.NET, and LINUX LPI to students at the Gasha Institute. I graduated from Re:Coded's Front-End Web Development Bootcamp—a competitive 5-month bootcamp focused on HTML, CSS, JavaScript, and React—in 2020.
 </p>
+
 </div>
+</div>
+<div class="my-info">
+<div>
+<i > <span class="fas fa-user-circle icons-span"></span><h1>Full Name</h1></i> 
+<p>Shadan Abdulkarim Rasheed </p>
+</div>
+<div>
+<i ><span class="fas fa-phone-square icons-span"  > </span><h1>Phone Number </h1></i>
+<p>+9647504120765 </p>
+</div>
+<div>
+<a href="https://github.com/shadan72"> 
+<i ><span class="fab fa-github-square icons-span" > </span><h1>Github</h1></i>
+<p> Shadan72
+ </p>
+ </a>
+</div>
+<div>
+<a href="https://github.com/shadan72"> 
+<i ><span class="fas fa-envelope-square icons-span" > </span><h1>Email</h1></i>
+<p>shadanabdulkarim94@gmail.com
+ </p>
+ </a>
 </div>
 
 </div>
+</div>
 
-<div class="skills" >
+
+<div class="skills">
 <h2 style="  clear: both;			
 ">Programming skills</h2>
 <ul class="skills-list">
-<li>React, JavaScript, HTML and CSS</li>
-<li>ASP.NET</li>
-<li>Microsoft SQL Server and Microsoft Access</li>
-<li>Programming Languages (C++)</li>
-<li>WordPress</li>
+<li> <p><img class="image-skill" src="./images/html-css-javascript-reactjs.png" alt="myLogo"> </p>
+React, JavaScript, HTML and CSS</li>
+<li>
+<p><img class="image-skill" src="./images/asp.png" alt="myLogo"></p>ASP.NET</li>
+<li><p><img class="image-skill" src="./images/sql.png" alt="myLogo"></p>
+ Microsoft SQL Server and Microsoft Access</li>
+<li> 
+<p><img class="image-skill" src="./images/cpp.png" alt="myLogo"></p>
+Programming Languages (C++)</li>
+<li>
+<p><img class="image-skill" src="./images/wordpress.png" alt="myLogo"></p>
+WordPress</li>
 </ul>
 </div>
+
 <div class="education">
 <h2 style="  clear: both;			
 "> Education</h2>
@@ -86,4 +120,3 @@ English Access degree. One year of studying academic English writing, reading, a
 </ul>
 </div>
 </div>
-

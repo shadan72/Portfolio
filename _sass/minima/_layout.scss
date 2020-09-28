@@ -8,6 +8,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  background-color: #e8ddde;
 }
 
 .site-title {
@@ -50,7 +51,6 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -80,7 +80,7 @@
 
     input ~ .trigger {
       clear: both;
-      display: none;
+    
     }
 
     input:checked ~ .trigger {
@@ -176,7 +176,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 0 0;
   flex: 1;
 }
 
