@@ -7,7 +7,22 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
+.my-cv{
+  padding:10px 20px 10px 20px;
+  border: 2px solid #c64e46;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.my-cv:hover{
+  background-color:#c64e46 ;
+  color:white;
+}
+.icons-resume{
+  padding-right:10px;
+  font-size: 35px;
 
+}
 .project-image{
   width:600px;
   height:400px;
@@ -69,6 +84,7 @@ div:hover .overlay{
   margin-top: 110px;
   width:500px;
   box-shadow: -2px 15px 29px 6px rgba(0,0,0,0.5);
+
 }
 .home-background{
   position: relative;
@@ -81,6 +97,7 @@ div:hover .overlay{
   width:50%;
   padding-left: 100px;
   padding-top: 40px;
+  height:100vh;
 }
 /**
  * Basic styling
@@ -304,8 +321,8 @@ h3{
 }
 p{
   letter-spacing: 1px;
-  color:gray;
-
+  color:#020202;
+  font-size: 16px;
 }
 ul li{
   margin: 10px 10px;
@@ -474,6 +491,7 @@ table {
 
 .image-skill{
   width:100px;
+  height:80px;
 }
 
 

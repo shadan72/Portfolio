@@ -12,7 +12,7 @@ layout: home
 <h2>I am Shadan </h2>
 <h3>Front-End Web <span>Developer</span></h3>
 <p>Front-end web developer and computer science specialist with experience in React, JavaScript, HTML, and CSS. Back-end experience using ASP.NET and SQL Server</p>
-
+<a class="my-cv" href="./MyCV/ShadanAbdulkarimCV_FrontEndWebDeveloper.pdf"  download="ShadanAbdulkarimCV_FrontEndWebDeveloper.pdf"><i class="fas fa-download icons-resume"></i>Resume</a>
 </div>
 <img class="home-image" src="./images/girl-developer.gif" alt="myLogo">
 </div>
@@ -34,7 +34,7 @@ layout: home
 
 <div class="about-paragraph">
 <h2>Build & Design with Passion </h2>
-<p >I am a skilled web developer who is eager to learn more technologies to sharpen my skillset. I am passionate about web development because I am a creative problem-solver, and I love to build websites. I started studying code because I enjoy thinking about and solving complex issues through computer programming. While earning my BS in Computer Science and Information Technology at Salahaddin University, I learned how to create databases using Access and SQL Server and how to create websites using ASP.NET.</p>
+<p >I am a skilled web developer who is eager to learn more technologies to sharpen my skillset. I am passionate about web development because I am a creative problem-solver with high attention to detail while building websites. I started studying code because I enjoy thinking about and solving complex issues through computer programming. While earning my BS in Computer Science and Information Technology at Salahaddin University, I learned how to create databases using Access and SQL Server and how to create websites using ASP.NET.</p>
 <p >
 I have taught a wide range of computer subjects such as C++, ASP.NET, and LINUX LPI to students at the Gasha Institute. I graduated from Re:Coded's Front-End Web Development Bootcamp—a competitive 5-month bootcamp focused on HTML, CSS, JavaScript, and React—in 2020.
 </p>
@@ -119,4 +119,6 @@ English Access degree. One year of studying academic English writing, reading, a
 </li>
 </ul>
 </div>
+
 </div>
+
