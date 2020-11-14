@@ -12,7 +12,7 @@ layout: home
 <h2>I am Shadan </h2>
 <h3>Front-End Web <span>Developer</span></h3>
 <p>Front-end web developer and computer science specialist with experience in React, JavaScript, HTML, and CSS. Back-end experience using ASP.NET and SQL Server</p>
-<a class="my-cv" href="./MyCV/ShadanAbdulkarimCV_FrontEndWebDeveloper.pdf"  download="ShadanAbdulkarimCV_FrontEndWebDeveloper.pdf"><i class="fas fa-download icons-resume"></i>Resume</a>
+<a class="my-cv" href="./MyCV/ShadanAbdulkarimCV_WebDeveloper.pdf"  download="ShadanAbdulkarimCV_WebDeveloper.pdf"><i class="fas fa-download icons-resume"></i>Resume</a>
 </div>
 <img class="home-image" src="./images/girl-developer.gif" alt="myLogo">
 </div>
