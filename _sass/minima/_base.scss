@@ -1,18 +1,21 @@
 /**
  * Reset some basic elements
  */
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
+
 .my-cv{
   padding:10px 20px 10px 20px;
   border: 2px solid #c64e46;
   font-size: 25px;
   font-weight: bold;
   border-radius: 5px;
+  width:fit-content;
 }
 .my-cv:hover{
   background-color:#c64e46 ;
@@ -31,6 +34,19 @@ dl, dd, ol, ul, figure {
   transition: transform 0.5s ease;
 
 }
+.my-experience{
+  clear: both;
+background-color: #dc85803b;
+width: 100%;
+height:100%;
+margin-top: 5em;
+padding-top: 10px;
+margin-bottom: 5em;
+padding-bottom: 1rem;
+border-radius: 2px;
+box-shadow: -2px 15px 29px 6px rgba(0,0,0,0.2);
+}
+
 .my-projects{
   clear: both;
 background-color: #dc85803b;
@@ -64,7 +80,16 @@ box-shadow: -2px 15px 29px 6px rgba(0,0,0,0.2);
   height: 0;
   transition: height 0.5s ease;
 }
+.experience{
+  list-style: none;
 
+}
+.experience > li > ul li::before {
+  content: "❏";
+  color: #d34339;
+  font-size: 20px;
+  display: inline-block;
+}
 div:hover .overlay{
   height: 50px;
 }
@@ -97,7 +122,6 @@ div:hover .overlay{
   width:50%;
   padding-left: 100px;
   padding-top: 40px;
-  height:100vh;
 }
 /**
  * Basic styling
@@ -213,12 +237,12 @@ h3 span {
   list-style: none;
   font-size:16px;
 }
-.education-list > li > strong{
+.education-list > li > strong, .experience > li > strong{
   list-style: none;
   font-size:20px;
   color: #008080;
 }
-.education-list > li > ul > li{
+.education-list > li > ul > li, .experience > li > ul > li{
   margin:15px 15px;
   list-style: none;
 }
@@ -226,6 +250,12 @@ h3 span {
   content: "▒";
   display: inline-block; 
 }
+.experience > li{
+  margin-bottom: 50px;
+  list-style: none;
+  font-size:18px;
+}
+
 .under-line-list{
  width:70%;
  height: 2px;
@@ -233,7 +263,7 @@ h3 span {
  border-radius: 10px;
  background: linear-gradient(90deg, rgba(198,78,70,0.7) 0%, rgba(0,212,255,0.7) 63%, rgba(141,139,165,1) 95%);
 }
-.education-list > li a{
+.education-list > li a , .experience > li a{
 color:#d34339;
 background: linear-gradient(90deg, rgba(198,78,70,0.8) 0%, rgba(198,78,70,0.8) 95%);
 
@@ -590,7 +620,6 @@ table {
     padding:20px 5px 20px 5px;
   }
   .home-image{
-    margin-top: 0px;
     margin-bottom: 5em;
   }
   .project-image,.project-list{
@@ -599,4 +628,16 @@ table {
 
   }
 
+}
+
+@media (max-width: 600px) {
+ p{
+   font-size: 1rem;
+ }
+ h2{
+   font-size: 2rem;
+ }
+ .email-span{
+  font-size: 0.7rem;
+ }
 }

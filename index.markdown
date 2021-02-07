@@ -11,8 +11,10 @@ layout: home
 <h4>Hello !</h4>
 <h2>I am Shadan </h2>
 <h3>Front-End Web <span>Developer</span></h3>
-<p>Front-end web developer and computer science specialist with experience in React, JavaScript, HTML, and CSS. Back-end experience using ASP.NET and SQL Server</p>
-<a class="my-cv" href="./MyCV/ShadanAbdulkarimCV_WebDeveloper.pdf"  download="ShadanAbdulkarimCV_WebDeveloper.pdf"><i class="fas fa-download icons-resume"></i>Resume</a>
+<p>Front-end web developer and computer science specialist with experience in React, JavaScript, HTML, CSS, and ASP.NET as well as Back-end experience using C# and SQL Server. Worked as an instructor in C++, ASP.NET, and Linux. Strong team-building and leadership skills.</p>
+<div class="my-cv">
+<a  href="./MyCV/ShadanAbdulkarimCV_WebDeveloper.pdf"  download="ShadanAbdulkarimCV_WebDeveloper.pdf"><i class="fas fa-download icons-resume"></i>Resume</a>
+</div>
 </div>
 <img class="home-image" src="./images/girl-developer.gif" alt="myLogo">
 </div>
@@ -60,13 +62,36 @@ I have taught a wide range of computer subjects such as C++, ASP.NET, and LINUX 
 <div>
 <a href="https://github.com/shadan72"> 
 <i ><span class="fas fa-envelope-square icons-span" > </span><h1>Email</h1></i>
-<p>shadanabdulkarim94@gmail.com
+<p><span class="email-span">shadanabdulkarim94@gmail.com</span>
  </p>
  </a>
 </div>
 
 </div>
 </div>
+
+<div class="my-experience" style="  clear: both;			
+">
+<h2  class="projects-head">Experience </h2>
+<ul class=" experience"> 
+<li><strong>Computer Science Instructor </strong>( <a href="https://www.gasha.ac/en/institute/">Gasha Institute</a> ) - <span><strong>Erbil, Iraq (2018 - 2021) : </strong></span>
+<ul>
+<li>
+  Evaluated and grew academic development of students as a member of the Examination Committee and Scientific Affairs;</li>
+<li>
+ Supervised groups of student projects, giving one-on-one and team feedback on coding and providing mentorship while
+meeting deadlines;</li>
+<li> Taught Computer Science subjects to more than 150 students, responsible for curriculum planning, testing, syllabus, and
+grading.</li>
+</ul>
+<div class="under-line-list"> </div>
+</li>
+
+
+</ul>
+
+ </div>
+
 
 
 <div class="skills">
